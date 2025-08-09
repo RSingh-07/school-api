@@ -84,6 +84,12 @@ app.get('/listSchools', async (req, res) => {
   }
 });
 
+// Add root route for a friendly landing page
+app.get('/', (req, res) => {
+  res.send('School API is running!');
+});
+
+
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
