@@ -35,6 +35,13 @@ npm run dev
 Production mode:
 npm start
 
+🚀 Deployment
+The API is deployed and running live at:
+https://school-api-oq8m.onrender.com
+
+You can test the endpoints directly on the deployed URL, for example:
+https://school-api-oq8m.onrender.com/listSchools?lat=19.1&lng=72.9
+
 API Endpoints
 POST /addSchool
 Body (JSON):
