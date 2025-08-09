@@ -14,9 +14,11 @@ A simple REST API to add schools and list them by distance.
 ### 1. Install dependencies
 ```bash
 npm install
-### 2. Import the database
+
+### **2. Import the database**
 ```bash
 mysql -u root -p < schooldb.sql
+
 ### 3. Create a .env file
 ```bash
 DB_HOST=localhost
