@@ -57,3 +57,18 @@ Import postman_collection.json into Postman to test the API.
 
 ---
 
+## Deployment Disclaimer
+This project is currently not deployed on a live cloud server due to the unavailability of free cloud-based MySQL database services that meet the project requirements.
+
+The entire API and database are designed and tested to run locally on your machine using a local MySQL installation.
+
+### To run and test the project:
+Install MySQL locally and import the provided database dump (schooldb_schools.sql).
+
+Configure the .env file with your local database credentials.
+
+Start the Node.js server using node server.js.
+
+Use the included Postman collection to test the API endpoints.
+
+Thank you for your understanding.
