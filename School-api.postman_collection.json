@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "77ed0ca5-8cd9-41b1-a820-b81aad14c393",
+		"name": "School-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47462537",
+		"_collection_link": "https://solar-sunset-9037669.postman.co/workspace/Riya-Singh's-Workspace~ce485cda-160f-46b2-83f1-e2b6c7878159/collection/47462537-77ed0ca5-8cd9-41b1-a820-b81aad14c393?action=share&source=collection_link&creator=47462537"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/listSchools?lat=19.07&lng=72.87",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/listSchools?lat=19.07&lng=72.87",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"listSchools"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "19.07"
+						},
+						{
+							"key": "lng",
+							"value": "72.87"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/addSchool",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"New School\",\r\n  \"address\": \"Some Address\",\r\n  \"latitude\": 19.1,\r\n  \"longitude\": 72.9\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/addSchool",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
