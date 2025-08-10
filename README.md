@@ -57,9 +57,3 @@ Import postman_collection.json into Postman to test the API.
 
 ---
 
-You just need to paste this file into your folder, then:  
-
-bash
-git add README.md
-git commit -m "Added README"
-git push
